@@ -1,0 +1,9 @@
+npm install prisma @prisma/client
+npx prisma generator
+npx prisma migrate dev --name init --create-only
+npx prisma migrate deploy
+
+
+
+Run prisma studio commnd ==> npx prisma studio
+npx prisma studio --experimental
